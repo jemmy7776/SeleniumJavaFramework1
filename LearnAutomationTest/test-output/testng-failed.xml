@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Aptence Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test name="Aptence Test Cases(failed)">
+    <classes>
+      <class name="com.aptence.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyNameTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.aptence.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Aptence Test Cases(failed) -->
+</suite> <!-- Failed suite [Aptence Test Automation Test Suite] -->

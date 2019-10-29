@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Aptence Test Automation Test Suite" duration-ms="16092" started-at="2019-10-29T09:59:32Z" finished-at="2019-10-29T09:59:48Z">
+    <groups>
+    </groups>
+    <test name="Aptence Test Cases" duration-ms="16092" started-at="2019-10-29T09:59:32Z" finished-at="2019-10-29T09:59:48Z">
+      <class name="com.aptence.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@28d25987]" name="setUp" is-config="true" duration-ms="13654" started-at="2019-10-29T15:29:32Z" finished-at="2019-10-29T15:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageLoginFormTest()[pri:5, instance:com.aptence.qa.testcases.LoginPageTest@28d25987]" name="loginPageLoginFormTest" duration-ms="1679" started-at="2019-10-29T15:29:45Z" finished-at="2019-10-29T15:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageLoginFormTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="739" started-at="2019-10-29T15:29:47Z" finished-at="2019-10-29T15:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.aptence.qa.testcases.LoginPageTest -->
+    </test> <!-- Aptence Test Cases -->
+  </suite> <!-- Aptence Test Automation Test Suite -->
+</testng-results>
