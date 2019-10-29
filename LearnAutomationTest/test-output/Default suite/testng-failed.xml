@@ -5,8 +5,12 @@
     <classes>
       <class name="com.aptence.qa.testcases.LoginPageTest">
         <methods>
+          <include name="loginPageTitleTest"/>
           <include name="setUp"/>
+          <include name="loginPageLoginFormTest"/>
           <include name="loginPageLogoTest"/>
+          <include name="loginPagePopUpTest"/>
+          <include name="loginTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.aptence.qa.testcases.LoginPageTest -->

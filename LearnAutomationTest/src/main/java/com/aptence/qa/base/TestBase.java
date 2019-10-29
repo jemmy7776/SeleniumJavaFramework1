@@ -24,8 +24,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop= new Properties();
-			FileInputStream fis = new FileInputStream("D:\\workspace selenium\\LearnAutomationTest\\src\\main\\java\\com\\"
-					+ "aptence\\qa\\config\\config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\Jashandeep\\git\\SeleniumJavaFramework1\\LearnAutomationTest\\src\\main\\java\\com\\aptence\\qa\\config.properties");
 			
 			prop.load(fis);
 		} catch(FileNotFoundException e){
