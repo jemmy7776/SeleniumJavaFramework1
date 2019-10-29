@@ -22,7 +22,7 @@ public class TestUtil extends TestBase {
 	public static long IMPLICIT_WAIT = 20;
 
 	public static String TESTDATA_SHEET_PATH = 
-			"D:\\workspace selenium\\LearnAutomationTest\\src\\main\\java\\com\\aptence\\qa\\testdata\\LoginTestData.xlsx";
+			"C:\\Users\\Jashandeep\\git\\SeleniumJavaFramework1\\LearnAutomationTest\\src\\main\\java\\com\\aptence\\qa\\testdata\\LoginTestData.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;
