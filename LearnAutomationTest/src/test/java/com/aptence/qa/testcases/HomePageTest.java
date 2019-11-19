@@ -55,6 +55,16 @@ public class HomePageTest extends TestBase{
 		editprofilepage = homepage.clickOnEditProfileLink();
 		return new EditProfilePage();
 	}
+	
+	@Test(priority=6)
+	public void verifyChallengeSubject() {
+	Assert.assertEquals(homepage.verifyChallengeSubject(), "Logic");
+	
+	}
+	@Test(priority=7)
+	public void verifyChallengeTopic() {
+		homepage.verifyChallengeTopic();
+	}
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

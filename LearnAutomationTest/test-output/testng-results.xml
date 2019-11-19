@@ -1,133 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="115109" started-at="2019-10-29T15:29:43Z" finished-at="2019-10-29T15:31:38Z">
+  <suite name="Default suite" duration-ms="54051" started-at="2019-11-19T03:06:34Z" finished-at="2019-11-19T03:07:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="115109" started-at="2019-10-29T15:29:43Z" finished-at="2019-10-29T15:31:38Z">
-      <class name="com.aptence.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="16319" started-at="2019-10-29T20:59:43Z" finished-at="2019-10-29T21:00:00Z">
+    <test name="Default test" duration-ms="54051" started-at="2019-11-19T03:06:34Z" finished-at="2019-11-19T03:07:28Z">
+      <class name="com.aptence.qa.testcases.ChallengePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.aptence.qa.testcases.ChallengePageTest@46d56d67]" name="setup" is-config="true" duration-ms="23336" started-at="2019-11-19T08:36:34Z" finished-at="2019-11-19T08:36:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="loginTest" duration-ms="1369" started-at="2019-10-29T21:00:00Z" data-provider="getLoginData" finished-at="2019-10-29T21:00:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Aditik_98]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass1234]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="challengeAttempt()[pri:0, instance:com.aptence.qa.testcases.ChallengePageTest@46d56d67]" name="challengeAttempt" duration-ms="491" started-at="2019-11-19T08:36:58Z" finished-at="2019-11-19T08:36:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="tearDown" is-config="true" duration-ms="747" started-at="2019-10-29T21:00:01Z" finished-at="2019-10-29T21:00:02Z">
+        </test-method> <!-- challengeAttempt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.ChallengePageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="740" started-at="2019-11-19T08:36:58Z" finished-at="2019-11-19T08:36:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="15742" started-at="2019-10-29T21:00:02Z" finished-at="2019-10-29T21:00:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.aptence.qa.testcases.ChallengePageTest@46d56d67]" name="setup" is-config="true" duration-ms="28671" started-at="2019-11-19T08:36:59Z" finished-at="2019-11-19T08:37:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="loginTest" duration-ms="1183" started-at="2019-10-29T21:00:18Z" data-provider="getLoginData" finished-at="2019-10-29T21:00:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Raghavp_10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass1234]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="challengeScore()[pri:0, instance:com.aptence.qa.testcases.ChallengePageTest@46d56d67]" name="challengeScore" duration-ms="33" started-at="2019-11-19T08:37:28Z" finished-at="2019-11-19T08:37:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="tearDown" is-config="true" duration-ms="1287" started-at="2019-10-29T21:00:19Z" finished-at="2019-10-29T21:00:20Z">
+        </test-method> <!-- challengeScore -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.ChallengePageTest@46d56d67]" name="tearDown" is-config="true" duration-ms="753" started-at="2019-11-19T08:37:28Z" finished-at="2019-11-19T08:37:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="15023" started-at="2019-10-29T21:00:20Z" finished-at="2019-10-29T21:00:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="loginTest" duration-ms="1710" started-at="2019-10-29T21:00:35Z" data-provider="getLoginData" finished-at="2019-10-29T21:00:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nilaya123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="tearDown" is-config="true" duration-ms="734" started-at="2019-10-29T21:00:37Z" finished-at="2019-10-29T21:00:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="12775" started-at="2019-10-29T21:00:38Z" finished-at="2019-10-29T21:00:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:2, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="loginPageTitleTest" duration-ms="12" started-at="2019-10-29T21:00:50Z" finished-at="2019-10-29T21:00:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="tearDown" is-config="true" duration-ms="718" started-at="2019-10-29T21:00:50Z" finished-at="2019-10-29T21:00:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="13275" started-at="2019-10-29T21:00:51Z" finished-at="2019-10-29T21:01:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageLogoTest()[pri:3, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="loginPageLogoTest" duration-ms="38" started-at="2019-10-29T21:01:04Z" finished-at="2019-10-29T21:01:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="tearDown" is-config="true" duration-ms="730" started-at="2019-10-29T21:01:04Z" finished-at="2019-10-29T21:01:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="13249" started-at="2019-10-29T21:01:05Z" finished-at="2019-10-29T21:01:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPagePopUpTest()[pri:4, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="loginPagePopUpTest" duration-ms="441" started-at="2019-10-29T21:01:18Z" finished-at="2019-10-29T21:01:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPagePopUpTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="tearDown" is-config="true" duration-ms="739" started-at="2019-10-29T21:01:19Z" finished-at="2019-10-29T21:01:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="16434" started-at="2019-10-29T21:01:20Z" finished-at="2019-10-29T21:01:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageLoginFormTest()[pri:5, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="loginPageLoginFormTest" duration-ms="1206" started-at="2019-10-29T21:01:36Z" finished-at="2019-10-29T21:01:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageLoginFormTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aptence.qa.testcases.LoginPageTest@59fa1d9b]" name="tearDown" is-config="true" duration-ms="753" started-at="2019-10-29T21:01:37Z" finished-at="2019-10-29T21:01:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.aptence.qa.testcases.LoginPageTest -->
+      </class> <!-- com.aptence.qa.testcases.ChallengePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

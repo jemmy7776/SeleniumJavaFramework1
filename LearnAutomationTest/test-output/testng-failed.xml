@@ -3,17 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.aptence.qa.testcases.LoginPageTest">
+      <class name="com.aptence.qa.testcases.ChallengePageTest">
         <methods>
-          <include name="loginPageTitleTest"/>
-          <include name="setUp"/>
-          <include name="loginPageLoginFormTest"/>
-          <include name="loginPageLogoTest"/>
-          <include name="loginPagePopUpTest"/>
-          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="challengeScore"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.aptence.qa.testcases.LoginPageTest -->
+      </class> <!-- com.aptence.qa.testcases.ChallengePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

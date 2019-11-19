@@ -33,7 +33,7 @@ public class EditProfilePage extends TestBase {
 	WebElement savebutton;
 		
 	public EditProfilePage() {
-		PageFactory.initElements(driver, this);      //this mean current class object i.e LoginPage.class
+		PageFactory.initElements(driver, this);      
 	}
 	
 	public boolean verifyProfilePageHeader() {

@@ -1,5 +1,7 @@
 package com.aptence.qa.pages;
 
+import java.util.Arrays;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -19,6 +21,18 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath="//a[contains(text(),'Edit Profile')]")
 	WebElement editProfileLink;
+	
+	@FindBy(xpath="(//span[@class='ml-3'])[1]")
+	WebElement startChallengeSubject;
+	
+	@FindBy(xpath="(//span[@class='ml-3'])[2]")
+	WebElement challengeTopic;
+	
+	@FindBy(xpath="//a[contains(text(),'Start Now')]")
+	WebElement clickOnStartNow;
+	
+	@FindBy(xpath="//a[contains(text(),'Start Challenge')]")
+	WebElement clickOnStartChallenge;
 	
 	public HomePage() {
 		PageFactory.initElements(driver, this);      //this mean current class object i.e LoginPage.class
@@ -46,6 +60,28 @@ public class HomePage extends TestBase {
 	public EditProfilePage clickOnEditProfileLink() {
 		editProfileLink.click();
 		return new EditProfilePage();
+	}
+
+	public String verifyChallengeSubject() {
+		
+		String text = startChallengeSubject.getAttribute("innerText");
+		 String lasttext[] = text.split("\\s+");
+		return (lasttext[2]);
+		
+	}
+	public String verifyChallengeTopic() {
+		return challengeTopic.getAttribute("innerText");
+		
+	}
+	public String clickOnStartNow() {
+		return clickOnStartNow();
+	}
+	
+	public ChallengePage startChallenge() {
+		clickOnStartNow.click();
+		clickOnStartChallenge.click();
+		return new ChallengePage();
+		
 	}
 		
 		

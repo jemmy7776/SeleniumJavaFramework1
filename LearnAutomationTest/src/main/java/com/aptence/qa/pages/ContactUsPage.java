@@ -18,7 +18,7 @@ public class ContactUsPage extends TestBase{
 	WebElement mobileNumber ;
 	
 	public ContactUsPage() {
-		PageFactory.initElements(driver, this);      //this mean current class object i.e LoginPage.class
+		PageFactory.initElements(driver, this);      
 	}
 	public boolean verifyContactUsPageHeader() {
 		return contactUsHeader.isDisplayed();
